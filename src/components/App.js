@@ -8,8 +8,8 @@ export default function App() {
     <div style={s.App}>
       <div style={s.Appheader}>
         <h2>Alexander Barcenas</h2>
-        <h4>I am a third year at UCSD and plan on finishing my B. S. in computer science in June 2018.</h4>
-        <h4>I am currently rebulding my website using React, but you can check out my resume and profiles below.</h4>
+        <h4>I study computer science at UCSD and will be graduating in June 2018.</h4>
+        <h4>I am currently rebuilding my website using React. You can check out my resume and profiles below.</h4>
       </div>
       <div style={s.Links}>
         <a href="AlexanderBarcenasResume.pdf" style={s.button}>Resume</a>

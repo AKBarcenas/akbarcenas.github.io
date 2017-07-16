@@ -57,18 +57,18 @@ s.App = {
 
 s.Appheader = {
   backgroundColor: '#18A999',
-  height: '150px',
+  height: 'auto',
   padding: '20px',
   color: '#484349',
 };
 
 s.button = {
-  backgroundColor: '#174E7D',
-  borderRadius: '5px',
-  color: '#fff',
+  backgroundColor: '#18a999',
+  borderRadius: '10px',
+  color: '#F7F0F0',
   display: 'inline-block',
   marginBottom: '5px',
-  padding: '5px 15px',
+  padding: '10px 10px',
   textDecoration: 'none',
 };
 
@@ -79,6 +79,7 @@ s.Links = {
 s.Icons = {
   paddingLeft: '5px',
   paddingRight: '5px',
+  color: '#484349',
 };
 
 export default s;
