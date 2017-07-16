@@ -50,4 +50,35 @@ s.creditLine = {
   marginTop: '50px',
 };
 
+s.App = {
+  textAlign: 'center',
+  backgroundColor: '#F7F0F0',
+};
+
+s.Appheader = {
+  backgroundColor: '#18A999',
+  height: '150px',
+  padding: '20px',
+  color: '#484349',
+};
+
+s.button = {
+  backgroundColor: '#174E7D',
+  borderRadius: '5px',
+  color: '#fff',
+  display: 'inline-block',
+  marginBottom: '5px',
+  padding: '5px 15px',
+  textDecoration: 'none',
+};
+
+s.Links = {
+  paddingTop: '20px',
+};
+
+s.Icons = {
+  paddingLeft: '5px',
+  paddingRight: '5px',
+};
+
 export default s;

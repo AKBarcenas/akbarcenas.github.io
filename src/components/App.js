@@ -11,23 +11,23 @@ var FontAwesome = require('react-fontawesome');
 
 export default function App() {
   return (
-    <div>
-      <div>
-        <h1>Hello my name is Alexander Barcenas. </h1>
-        <h3>I have studied at UCSD for three years and plan on finishing my studies June 2018.</h3>
+    <div style={s.App}>
+      <div style={s.Appheader}>
+        <h1>Alexander Barcenas</h1>
+        <h3>I am a third year at UCSD and plan on finishing my B.S. in computer scince in June 2018.</h3>
         <h3>I'm currently rebulding my website using React, but you can check out my resume and profiles below.</h3>
       </div>
-      <div>
-        <a href="AlexanderBarcenasResume.pdf">Resume</a>
+      <div style={s.Links}>
+        <a href="AlexanderBarcenasResume.pdf" style={s.button}>Resume</a>
         <div>
           <a href="https://github.com/AKBarcenas">
-            <FontAwesome name="github" size="2x"/>
+            <FontAwesome name="github" size="2x" style={s.Icons}/>
           </a>
           <a href="https://www.linkedin.com/in/alexander-barcenas-792196107">
-            <FontAwesome name="linkedin-square" size="2x"/>
+            <FontAwesome name="linkedin-square" size="2x" style={s.Icons}/>
           </a>
           <a href="https://www.hackerrank.com/Alexbrc">
-            <FontAwesome name="code" size="2x"/>
+            <FontAwesome name="code" size="2x" style={s.Icons}/>
           </a>
         </div>
       </div>
